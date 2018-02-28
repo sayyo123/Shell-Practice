@@ -6,7 +6,7 @@ if [ "$#" -ne 1 ]; then
 fi
 
 prefix=$(echo $1 | cut -d '.' -f 1-3)
-for addr in $(seq 100 254); do
+for addr in $(seq 1 254); do
 	hping3 $prefix.$addr --udp -c 1 >> temp.txt
 done
 grep Unreachable temp.txt | cut -d " " -f 5 | cut -d "=" -f 2 >>output.txt
