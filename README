@@ -1,7 +1,7 @@
-script-01 嗅探该网段下所有活的主机
+script-01 发现该网段下所有活的主机
 
 script-02 对域名进行DNS字典爆破 
 
-script-03 嗅探指定主机是否存活
+script-03 发现指定主机是否存活
 
-script-04 嗅探任意网段活的主机（icmp）
+script-04 发现任意网段活的主机（icmp）
