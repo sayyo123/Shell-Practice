@@ -19,4 +19,4 @@ script-05 发现任意网段活的主机（`udp`）
 chmod 777 script.sh 
 
 执行
-./script.py 
+./script.sh 
