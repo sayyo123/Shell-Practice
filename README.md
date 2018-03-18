@@ -12,6 +12,8 @@ script-05 发现任意网段活的主机（`udp`）
 
 script-06 发现任意网段活的主机（`tcp`）
 
+script-07 开启FTP服务
+
 用法
 ====
 使用`kali linux`自带的集成环境
